@@ -1,0 +1,61 @@
+/* HELPER STYLES */
+
+/* horizontally centering arbitrary components */
+#outerDiv1 {
+	text-align: center;
+}
+#outerDiv1 img, #outerDiv1 p, #outerDiv1 ol {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	vertical-align: top;
+}
+ol li {
+	text-align: left;
+}
+
+/* vertically centering arbitrary components */
+.vertOuter1 {
+	height: 300px;
+}
+.vertInner1 {
+	line-height: 300px;
+}
+.vertOuter2 {
+	height: 300px;
+	display: table;
+}
+.vertInner2 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*HORIZONTAL LIST*/
+ul.horizList {
+	padding: 0px;
+}
+ul.horizList li {
+	display: inline;
+}
+
+/* BUTTONS */
+.button {
+	background-color: #E6848A;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	display: inline-block;
+	border: 0px;
+}
+.largeBtn {
+	padding: 20px 60px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.medBtn {
+	padding: 10px 40px;
+}
+.smlBtn {
+	padding: 5px 10px;
+	font-size: .8em;
+}
