@@ -100,3 +100,48 @@ ul.horizList li {
 .pinkBorderBottom:hover {
 	border-bottom: 2px solid silver;
 }
+.active {
+	color: silver; 
+	border-bottom: 2px solid silver;
+}
+
+/* comment stream */
+.mainThread {
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.floatLeft {
+	float: left;
+}
+.threadText {
+	margin-left: 12px;
+	display: inline-block;
+}
+
+/* tabs */
+.tabContainer {
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid silver;
+	border-radius: 8px;
+}
+.infoTab {
+	position: relative;
+	display: block;
+	top: 2px;
+	padding: 6px 15px;
+	border: 1px solid silver;
+	margin-right: 10px;
+	border-radius: 8px 8px 0px 0px;
+}
+.activeTab {
+	border-bottom: 2px solid white;
+}
+.tabLinks {
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
+.left10 {
+	margin-left: 10px;
+}
