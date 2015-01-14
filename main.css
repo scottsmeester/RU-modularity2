@@ -30,7 +30,7 @@ ol li {
 	vertical-align: middle;
 }
 
-/*HORIZONTAL LIST*/
+/*horizontal list*/
 ul.horizList {
 	padding: 0px;
 }
@@ -38,12 +38,11 @@ ul.horizList li {
 	display: inline;
 }
 
-/* BUTTONS */
+/* buttons */
 .button {
 	background-color: #E6848A;
 	color: #fff;
 	text-decoration: none;
-	border-radius: 8px;
 	display: inline-block;
 	border: 0px;
 }
@@ -58,4 +57,46 @@ ul.horizList li {
 .smlBtn {
 	padding: 5px 10px;
 	font-size: .8em;
+}
+.roundButtons {
+	border-radius: 8px;
+}
+
+/* navigation */
+.horizontalList li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+}
+.noPadding {
+	padding: 0px;
+}
+.roundedNav {
+	float: left;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.button:hover {
+	background-color: blue;
+}
+
+/* pagination */
+.padding10 {
+	padding: 10px;
+	margin: 5px;
+}
+.textLink {
+	text-decoration: none;
+	color: #E6848A;
+	font-weight: bold;
+	display: block;
+}
+.pinkBorderBottom {
+	border-bottom: 2px solid #E6848A;
+}
+.textLink:hover {
+	color: silver;
+}
+.pinkBorderBottom:hover {
+	border-bottom: 2px solid silver;
 }
